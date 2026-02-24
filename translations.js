@@ -52,7 +52,8 @@ const TRANSLATIONS = {
 
     hero: {
       eyebrow: "XALQARO TURIZM + VISA XIZMATI",
-      title: "Osiyo sayohatlari va visa yordami — bitta joyda, premium darajada",
+      title:
+        "Osiyo sayohatlari va visa yordami — bitta joyda, premium darajada",
       subtitle:
         "Parvozlar, mehmonxonalar, transferlar, sug‘urta va visa bo‘yicha yo‘l-yo‘riq — hammasi aniq reja va shaffof narx bilan.",
       ctaPackages: "Paketlarni ko‘rish",
@@ -72,12 +73,13 @@ const TRANSLATIONS = {
       stats: {
         title: "Luxway ko‘rsatkichlari",
         years: "Yillik tajriba",
-        yearsValue: "8+",
+        yearsValue: "4+",
         rating: "O‘rtacha baho",
         ratingValue: "4.9/5",
         packages: "Tayyor paketlar",
-        packagesValue: "40+",
+        packagesValue: "400+",
         note: "Individual marshrutlar ham tayyorlaymiz.",
+        workHours: "Ish vaqti",
       },
     },
 
@@ -229,47 +231,39 @@ const TRANSLATIONS = {
     whyUs: {
       title: "Nega Luxway?",
       subtitle:
-        "Xalqaro sayohatlar bo‘yicha tajriba, premium servis va hujjatlar bilan ishonchli yondashuv.",
+        "Luxway Travel Agency bugungi kunda xalqaro turizm yo‘nalishida faol rivojlanib bormoqda. Kompaniya asoschisi — Yusupova Saboxatxon. Asoschi rahbarligida Luxway mijozlarga xorijiy davlatlarga sayohat qilish bo‘yicha keng turdagi xizmatlarni taqdim etadi. Jumladan, Osiyo va Yevropa davlatlariga tur paketlari, viza xizmatlari, aviachiptalar va mehmonxonalarni bron qilish, hamda safar davomida to‘liq maslahat va yordam ko‘rsatish xizmatlari mavjud.Xalqaro sayohatlar bo‘yicha tajriba, premium servis va hujjatlar bilan ishonchli yondashuv.",
       items: {
         flights: {
           title: "Parvozlar va chipta",
-          text:
-            "Mos variantlar, qulay vaqtlar, minimal tranzit — byudjet va komfort balansida.",
+          text: "Mos variantlar, qulay vaqtlar, minimal tranzit — byudjet va komfort balansida.",
         },
         hotels: {
           title: "Tekshirilgan mehmonxonalar",
-          text:
-            "Joylashuv, tozalik va servis bo‘yicha saralangan variantlar — xotirjam dam olish uchun.",
+          text: "Joylashuv, tozalik va servis bo‘yicha saralangan variantlar — xotirjam dam olish uchun.",
         },
         visa: {
           title: "Visa yordami",
-          text:
-            "Ariza tayyorlash, bronlar, sug‘urta va jarayon bo‘yicha aniq yo‘riqnoma.",
+          text: "Ariza tayyorlash, bronlar, sug‘urta va jarayon bo‘yicha aniq yo‘riqnoma.",
         },
         insurance: {
           title: "Sug‘urta",
-          text:
-            "Sayohat ehtiyojiga mos sug‘urta — xavfsizlik va ishonch uchun.",
+          text: "Sayohat ehtiyojiga mos sug‘urta — xavfsizlik va ishonch uchun.",
         },
         support: {
           title: "24/7 qo‘llab-quvvatlash",
-          text:
-            "Safar davomida savollar bo‘lsa — tezkor aloqa va yordam.",
+          text: "Safar davomida savollar bo‘lsa — tezkor aloqa va yordam.",
         },
         pricing: {
           title: "Shaffof narx",
-          text:
-            "Nimalar kirishi aniq ko‘rsatiladi. Yashirin to‘lovlar yo‘q.",
+          text: "Nimalar kirishi aniq ko‘rsatiladi. Yashirin to‘lovlar yo‘q.",
         },
         payment: {
           title: "Moslashuvchan to‘lov",
-          text:
-            "Paketga qarab bosqichma-bosqich yoki oldindan kelishilgan rejalar.",
+          text: "Paketga qarab bosqichma-bosqich yoki oldindan kelishilgan rejalar.",
         },
         private: {
           title: "Guruh va individual",
-          text:
-            "Oilaviy, honeymoon, biznes yoki VIP — maqsadingizga mos marshrut.",
+          text: "Oilaviy, honeymoon, biznes yoki VIP — maqsadingizga mos marshrut.",
         },
       },
     },
@@ -282,23 +276,19 @@ const TRANSLATIONS = {
       items: {
         r1: {
           name: "Dilshod A.",
-          text:
-            "Dubai safarimiz mukammal tashkil qilindi: parvoz, transfer va mehmonxona juda mos tushdi. Visa bo‘yicha ham hammasi aniq yo‘lga qo‘yildi.",
+          text: "Dubai safarimiz mukammal tashkil qilindi: parvoz, transfer va mehmonxona juda mos tushdi. Visa bo‘yicha ham hammasi aniq yo‘lga qo‘yildi.",
         },
         r2: {
           name: "Madina K.",
-          text:
-            "Tailand (Phuket + Bangkok) paketini oldik. Itinerary juda qulay, vaqtimiz tejaldi. Hujjatlar bo‘yicha maslahatlar ham foydali bo‘ldi.",
+          text: "Tailand (Phuket + Bangkok) paketini oldik. Itinerary juda qulay, vaqtimiz tejaldi. Hujjatlar bo‘yicha maslahatlar ham foydali bo‘ldi.",
         },
         r3: {
           name: "Rustam S.",
-          text:
-            "Shengen uchun hujjatlarimizni tartibga keltirishdi, bron va sug‘urtani moslab berishdi. Jarayon stresssiz o‘tdi.",
+          text: "Shengen uchun hujjatlarimizni tartibga keltirishdi, bron va sug‘urtani moslab berishdi. Jarayon stresssiz o‘tdi.",
         },
         r4: {
           name: "Sabina N.",
-          text:
-            "Yaponiya bo‘yicha konsultatsiya oldik. Talablar, reja va byudjetni to‘g‘ri tushuntirishdi — premium servis hissi bor.",
+          text: "Yaponiya bo‘yicha konsultatsiya oldik. Talablar, reja va byudjetni to‘g‘ri tushuntirishdi — premium servis hissi bor.",
         },
       },
     },
@@ -310,38 +300,31 @@ const TRANSLATIONS = {
       items: {
         q1: {
           q: "Visa jarayoni necha kunda tayyor bo‘ladi?",
-          a:
-            "Muddat mamlakat va mavsumga bog‘liq. Konsultatsiyada sizning holatingizga mos taxminiy vaqtni aytamiz va tezlashtirish variantlarini tushuntiramiz.",
+          a: "Muddat mamlakat va mavsumga bog‘liq. Konsultatsiyada sizning holatingizga mos taxminiy vaqtni aytamiz va tezlashtirish variantlarini tushuntiramiz.",
         },
         q2: {
           q: "Qaysi hujjatlar eng ko‘p kerak bo‘ladi?",
-          a:
-            "Odatda pasport, foto, anketa, moliyaviy tasdiq va sayohat rejasi. Ba’zi vizalarda bronlar va sug‘urta ham talab qilinadi.",
+          a: "Odatda pasport, foto, anketa, moliyaviy tasdiq va sayohat rejasi. Ba’zi vizalarda bronlar va sug‘urta ham talab qilinadi.",
         },
         q3: {
           q: "To‘lovni qanday amalga oshiramiz?",
-          a:
-            "Paketga qarab to‘liq yoki bosqichma-bosqich to‘lov bo‘lishi mumkin. Hamma shartlar oldindan yozma tarzda kelishiladi.",
+          a: "Paketga qarab to‘liq yoki bosqichma-bosqich to‘lov bo‘lishi mumkin. Hamma shartlar oldindan yozma tarzda kelishiladi.",
         },
         q4: {
           q: "Bekor qilish va qaytarish siyosati qanday?",
-          a:
-            "Qaytarish shartlari aviakompaniya va mehmonxona qoidalariga bog‘liq. Biz oldindan xavflarni tushuntiramiz va eng mos variantni tanlashga yordam beramiz.",
+          a: "Qaytarish shartlari aviakompaniya va mehmonxona qoidalariga bog‘liq. Biz oldindan xavflarni tushuntiramiz va eng mos variantni tanlashga yordam beramiz.",
         },
         q5: {
           q: "Eng yaxshi mavsum qachon?",
-          a:
-            "Osiyoda mavsumlar yo‘nalish bo‘yicha farq qiladi. Siz istagan ob-havo va byudjetga mos eng yaxshi oynalarni tavsiya qilamiz.",
+          a: "Osiyoda mavsumlar yo‘nalish bo‘yicha farq qiladi. Siz istagan ob-havo va byudjetga mos eng yaxshi oynalarni tavsiya qilamiz.",
         },
         q6: {
           q: "Paketni o‘zimga moslab o‘zgartira olamanmi?",
-          a:
-            "Ha. Mehmonxona darajasi, parvoz va marshrutni sizning istagingiz bo‘yicha moslab beramiz. Shunchaki maqsadingizni ayting.",
+          a: "Ha. Mehmonxona darajasi, parvoz va marshrutni sizning istagingiz bo‘yicha moslab beramiz. Shunchaki maqsadingizni ayting.",
         },
         q7: {
           q: "Visa rad etilsa nima bo‘ladi?",
-          a:
-            "Har bir holat individual. Biz hujjatlarni maksimal to‘g‘ri tayyorlaymiz. Rad bo‘lsa, sababini tahlil qilib, keyingi qadam bo‘yicha maslahat beramiz.",
+          a: "Har bir holat individual. Biz hujjatlarni maksimal to‘g‘ri tayyorlaymiz. Rad bo‘lsa, sababini tahlil qilib, keyingi qadam bo‘yicha maslahat beramiz.",
         },
       },
     },
@@ -383,8 +366,9 @@ const TRANSLATIONS = {
     },
 
     footer: {
+      address: "Manzil",
       about:
-        "Luxway — Osiyo yo‘nalishlari, Yevropa safarlari va visa xizmatlarini premium darajada tashkil qiladigan xalqaro agentlik.",
+        "Bunyodkor Avenue 15, 100043, Tashkent",
       links: "Tezkor havolalar",
       socials: "Ijtimoiy tarmoqlar",
       rights: "Barcha huquqlar himoyalangan.",
@@ -435,7 +419,8 @@ const TRANSLATIONS = {
       p2: {
         title: "Antalya beach escape",
         subtitle: "Dengiz, all-inclusive va qulay dam olish",
-        visaNote: "Visa masalalari bo‘yicha konsultatsiya va hujjatlar yo‘riqnomasi mavjud.",
+        visaNote:
+          "Visa masalalari bo‘yicha konsultatsiya va hujjatlar yo‘riqnomasi mavjud.",
         itinerary: [
           "1-kun: Parvoz, transfer, check-in",
           "2-kun: Dam olish va resort xizmatlari",
@@ -459,7 +444,8 @@ const TRANSLATIONS = {
       p4: {
         title: "Abu-Dabi + Dubai combo",
         subtitle: "Ikki shahar — bitta sayohatda",
-        visaNote: "Visa bo‘yicha to‘liq yo‘riqnoma va sug‘urta qo‘llab-quvvatlash mavjud.",
+        visaNote:
+          "Visa bo‘yicha to‘liq yo‘riqnoma va sug‘urta qo‘llab-quvvatlash mavjud.",
         itinerary: [
           "1-kun: Dubai, check-in",
           "2-kun: Dubai city tour",
@@ -471,7 +457,8 @@ const TRANSLATIONS = {
       p5: {
         title: "Thailand: Phuket + Bangkok",
         subtitle: "Plyaj va shahar energiyasi uyg‘unligi",
-        visaNote: "Tailand hujjatlari bo‘yicha konsultatsiya va sayohat sug‘urtasi tavsiya etiladi.",
+        visaNote:
+          "Tailand hujjatlari bo‘yicha konsultatsiya va sayohat sug‘urtasi tavsiya etiladi.",
         itinerary: [
           "1-kun: Phuket, check-in",
           "2-kun: Orol ekskursiyasi (ixtiyoriy)",
@@ -507,7 +494,8 @@ const TRANSLATIONS = {
       p8: {
         title: "Singapore city luxe",
         subtitle: "Arxitektura, tozalik va premium servis",
-        visaNote: "Visa talablariga mos hujjatlar bo‘yicha yo‘riqnoma taqdim etiladi.",
+        visaNote:
+          "Visa talablariga mos hujjatlar bo‘yicha yo‘riqnoma taqdim etiladi.",
         itinerary: [
           "1-kun: Marina Bay, kechki shahar",
           "2-kun: Gardens by the Bay, Sky views",
@@ -518,7 +506,8 @@ const TRANSLATIONS = {
       p9: {
         title: "Seoul + culture highlights",
         subtitle: "K-pop shahri va an’anaviy mahallalar",
-        visaNote: "Koreya visa yordami mavjud (hujjatlar, marshrut, tavsiyalar).",
+        visaNote:
+          "Koreya visa yordami mavjud (hujjatlar, marshrut, tavsiyalar).",
         itinerary: [
           "1-kun: Yetib kelish, Hongdae",
           "2-kun: Palace + old town",
@@ -540,7 +529,8 @@ const TRANSLATIONS = {
       p11: {
         title: "Vietnam: Da Nang + Hanoi",
         subtitle: "Tabiat, dengiz va tarixiy shaharlar",
-        visaNote: "Visa talablari bo‘yicha konsultatsiya va sug‘urta qo‘llovi mavjud.",
+        visaNote:
+          "Visa talablari bo‘yicha konsultatsiya va sug‘urta qo‘llovi mavjud.",
         itinerary: [
           "1-kun: Da Nang, check-in",
           "2-kun: Ba Na Hills (ixtiyoriy)",
@@ -552,7 +542,8 @@ const TRANSLATIONS = {
       p12: {
         title: "Italy: Rome + Venice",
         subtitle: "Klassika, san’at va kanallar",
-        visaNote: "Shengen visa talab qilinadi. Hujjatlar, bronlar va sug‘urta bo‘yicha to‘liq yo‘riqnoma beriladi.",
+        visaNote:
+          "Shengen visa talab qilinadi. Hujjatlar, bronlar va sug‘urta bo‘yicha to‘liq yo‘riqnoma beriladi.",
         itinerary: [
           "1-kun: Rim, tarixiy markaz",
           "2-kun: Vatikan va muzeylar",
@@ -563,7 +554,8 @@ const TRANSLATIONS = {
       p13: {
         title: "Paris signature",
         subtitle: "Madaniyat, moda va romantika",
-        visaNote: "Shengen visa talab qilinadi. Konsultatsiya va tayyorlov xizmatlari mavjud.",
+        visaNote:
+          "Shengen visa talab qilinadi. Konsultatsiya va tayyorlov xizmatlari mavjud.",
         itinerary: [
           "1-kun: Eiffel area",
           "2-kun: Louvre + Seine walk",
@@ -574,7 +566,8 @@ const TRANSLATIONS = {
       p14: {
         title: "Spain: Barcelona vibes",
         subtitle: "Dengiz, arxitektura va shahar ruhi",
-        visaNote: "Shengen visa talab qilinadi. Hujjatlar bo‘yicha yordam paketga kiritiladi.",
+        visaNote:
+          "Shengen visa talab qilinadi. Hujjatlar bo‘yicha yordam paketga kiritiladi.",
         itinerary: [
           "1-kun: Gothic Quarter",
           "2-kun: Sagrada Familia + Gaudi",
@@ -585,7 +578,8 @@ const TRANSLATIONS = {
       p15: {
         title: "Paris + Amsterdam duo",
         subtitle: "Ikki poytaxt — bitta sayohatda",
-        visaNote: "Shengen visa talab qilinadi. Uchrashuv va hujjatlar bo‘yicha yo‘riqnoma beriladi.",
+        visaNote:
+          "Shengen visa talab qilinadi. Uchrashuv va hujjatlar bo‘yicha yo‘riqnoma beriladi.",
         itinerary: [
           "1-kun: Parij, city walk",
           "2-kun: Parij muzeylar",
@@ -667,12 +661,13 @@ const TRANSLATIONS = {
       stats: {
         title: "Показатели Luxway",
         years: "Опыт работы",
-        yearsValue: "8+",
+        yearsValue: "4+",
         rating: "Средняя оценка",
         ratingValue: "4.9/5",
         packages: "Готовые пакеты",
-        packagesValue: "40+",
+        packagesValue: "400+",
         note: "Собираем и индивидуальные маршруты.",
+        workHours: "Время работы",
       },
     },
 
@@ -779,14 +774,11 @@ const TRANSLATIONS = {
         "От списка документов до записи — понятные шаги и поддержка на каждом этапе.",
       stepsTitle: "Как мы помогаем",
       step1Title: "Бесплатный чек-лист документов",
-      step1Text:
-        "Соберём список под вашу страну и цель поездки.",
+      step1Text: "Соберём список под вашу страну и цель поездки.",
       step2Title: "Подготовка анкеты и пакета",
-      step2Text:
-        "Заполняем формы и приводим комплект к требованиям.",
+      step2Text: "Заполняем формы и приводим комплект к требованиям.",
       step3Title: "Инструкции по записи и визиту",
-      step3Text:
-        "Объясним требования центра/консульства и порядок действий.",
+      step3Text: "Объясним требования центра/консульства и порядок действий.",
       step4Title: "Страховка и поддержка бронирований",
       step4Text:
         "Страховка, отели и перелёты — в конфигурации, подходящей под визу.",
@@ -795,8 +787,7 @@ const TRANSLATIONS = {
       typeTouristText:
         "ОАЭ, Турция, Таиланд и др. — помощь с e-visa и документами.",
       typeSchengenTitle: "Шенгенская виза",
-      typeSchengenText:
-        "Документы, маршрут, брони и чёткая схема подачи.",
+      typeSchengenText: "Документы, маршрут, брони и чёткая схема подачи.",
       typeUkTitle: "Виза Великобритании",
       typeUkText:
         "Анкета, оплаты и дополнительные документы — аккуратная подготовка.",
@@ -824,119 +815,98 @@ const TRANSLATIONS = {
     whyUs: {
       title: "Почему Luxway?",
       subtitle:
-        "Опыт международных поездок, премиальный сервис и уверенная работа с документами.",
+        "Туристическое агентство Luxway Travel Agency на сегодняшний день активно развивается на международном туристическом рынке. Основатель компании — Юсупова Сабохатхон. Под руководством основателя Luxway предлагает широкий спектр услуг для путешествий за границу, включая организацию туров в страны Азии и Европы, визовую поддержку, бронирование авиабилетов и отелей, а также полное сопровождение клиентов на всех этапах поездки.",
       items: {
         flights: {
           title: "Перелёты и билеты",
-          text:
-            "Подбираем удобные варианты — баланс цены и комфорта без лишних пересадок.",
+          text: "Подбираем удобные варианты — баланс цены и комфорта без лишних пересадок.",
         },
         hotels: {
           title: "Проверенные отели",
-          text:
-            "Отбор по локации и уровню сервиса — для спокойного отдыха.",
+          text: "Отбор по локации и уровню сервиса — для спокойного отдыха.",
         },
         visa: {
           title: "Визовая поддержка",
-          text:
-            "Анкета, брони, страховка и понятный план действий по визе.",
+          text: "Анкета, брони, страховка и понятный план действий по визе.",
         },
         insurance: {
           title: "Страхование",
-          text:
-            "Подберём страховку под формат поездки — для уверенности в пути.",
+          text: "Подберём страховку под формат поездки — для уверенности в пути.",
         },
         support: {
           title: "Поддержка 24/7",
-          text:
-            "На связи во время поездки — быстро отвечаем и помогаем.",
+          text: "На связи во время поездки — быстро отвечаем и помогаем.",
         },
         pricing: {
           title: "Прозрачная цена",
-          text:
-            "Понимание, что входит в пакет. Без скрытых доплат.",
+          text: "Понимание, что входит в пакет. Без скрытых доплат.",
         },
         payment: {
           title: "Гибкая оплата",
-          text:
-            "По договорённости возможна оплата частями в зависимости от пакета.",
+          text: "По договорённости возможна оплата частями в зависимости от пакета.",
         },
         private: {
           title: "Группы и индивидуально",
-          text:
-            "Семья, honeymoon, бизнес или VIP — маршрут под ваш запрос.",
+          text: "Семья, honeymoon, бизнес или VIP — маршрут под ваш запрос.",
         },
       },
     },
 
     reviews: {
       title: "Отзывы клиентов",
-      subtitle:
-        "Впечатления о международных поездках и визовой поддержке.",
+      subtitle: "Впечатления о международных поездках и визовой поддержке.",
       a11yStars: "Оценка: {stars} звёзд",
       items: {
         r1: {
           name: "Дилшод А.",
-          text:
-            "Поездка в Дубай была организована идеально: перелёт, трансферы и отель. По визе всё объяснили чётко и вовремя.",
+          text: "Поездка в Дубай была организована идеально: перелёт, трансферы и отель. По визе всё объяснили чётко и вовремя.",
         },
         r2: {
           name: "Мадина К.",
-          text:
-            "Брали Таиланд (Пхукет + Бангкок). Маршрут удобный, без суеты. Консультации по документам очень помогли.",
+          text: "Брали Таиланд (Пхукет + Бангкок). Маршрут удобный, без суеты. Консультации по документам очень помогли.",
         },
         r3: {
           name: "Рустам С.",
-          text:
-            "Помогли собрать пакет на Шенген: брони, страховка, анкета. Процесс прошёл спокойно и без лишнего стресса.",
+          text: "Помогли собрать пакет на Шенген: брони, страховка, анкета. Процесс прошёл спокойно и без лишнего стресса.",
         },
         r4: {
           name: "Сабина Н.",
-          text:
-            "Получили консультацию по Японии. Всё разложили по шагам и по бюджету — сервис действительно премиальный.",
+          text: "Получили консультацию по Японии. Всё разложили по шагам и по бюджету — сервис действительно премиальный.",
         },
       },
     },
 
     faq: {
       title: "Частые вопросы",
-      subtitle:
-        "Короткие ответы про визы, оплату и организацию поездки.",
+      subtitle: "Короткие ответы про визы, оплату и организацию поездки.",
       items: {
         q1: {
           q: "Сколько занимает процесс получения визы?",
-          a:
-            "Срок зависит от страны и сезона. На консультации дадим реалистичный прогноз и объясним возможные ускорения.",
+          a: "Срок зависит от страны и сезона. На консультации дадим реалистичный прогноз и объясним возможные ускорения.",
         },
         q2: {
           q: "Какие документы требуются чаще всего?",
-          a:
-            "Обычно паспорт, фото, анкета, финансовые документы и план поездки. Для некоторых виз нужны брони и страховка.",
+          a: "Обычно паспорт, фото, анкета, финансовые документы и план поездки. Для некоторых виз нужны брони и страховка.",
         },
         q3: {
           q: "Как можно оплатить?",
-          a:
-            "Возможна полная оплата или поэтапно — зависит от пакета. Все условия фиксируем заранее.",
+          a: "Возможна полная оплата или поэтапно — зависит от пакета. Все условия фиксируем заранее.",
         },
         q4: {
           q: "Какая политика отмены и возврата?",
-          a:
-            "Возврат зависит от правил авиакомпании и отеля. Заранее объясним риски и поможем выбрать оптимальный вариант.",
+          a: "Возврат зависит от правил авиакомпании и отеля. Заранее объясним риски и поможем выбрать оптимальный вариант.",
         },
         q5: {
           q: "Когда лучший сезон для поездки?",
-          a:
-            "Сезонность отличается по направлениям. Подберём лучшие даты под желаемую погоду и бюджет.",
+          a: "Сезонность отличается по направлениям. Подберём лучшие даты под желаемую погоду и бюджет.",
         },
         q6: {
           q: "Можно ли изменить пакет под себя?",
-          a:
-            "Да. Меняем уровень отеля, перелёты и программу под ваш запрос — просто расскажите цель поездки.",
+          a: "Да. Меняем уровень отеля, перелёты и программу под ваш запрос — просто расскажите цель поездки.",
         },
         q7: {
           q: "Что если в визе откажут?",
-          a:
-            "Каждый случай индивидуален. Мы готовим документы максимально корректно. При отказе разберём причину и подскажем следующие шаги.",
+          a: "Каждый случай индивидуален. Мы готовим документы максимально корректно. При отказе разберём причину и подскажем следующие шаги.",
         },
       },
     },
@@ -978,8 +948,9 @@ const TRANSLATIONS = {
     },
 
     footer: {
+      address: "Адрес",
       about:
-        "Luxway — международное агентство: Азия в приоритете, Европа и визы — с понятным процессом и премиальным сервисом.",
+        "проспект Бунёдкор, 15, 100043, Ташкент",
       links: "Ссылки",
       socials: "Соцсети",
       rights: "Все права защищены.",
@@ -1248,7 +1219,8 @@ const TRANSLATIONS = {
 
     hero: {
       eyebrow: "INTERNATIONAL TOURS + VISA SERVICES",
-      title: "Asia-first travel packages with visa support — premium and seamless",
+      title:
+        "Asia-first travel packages with visa support — premium and seamless",
       subtitle:
         "Flights, hotels, transfers, insurance, and visa guidance — with clear planning and transparent pricing.",
       ctaPackages: "Explore Packages",
@@ -1268,12 +1240,13 @@ const TRANSLATIONS = {
       stats: {
         title: "Luxway in numbers",
         years: "Years of experience",
-        yearsValue: "8+",
+        yearsValue: "4+",
         rating: "Average rating",
         ratingValue: "4.9/5",
         packages: "Ready packages",
-        packagesValue: "40+",
+        packagesValue: "400+",
         note: "We also craft fully custom itineraries.",
+        workHours: "Working hours",
       },
     },
 
@@ -1425,47 +1398,39 @@ const TRANSLATIONS = {
     whyUs: {
       title: "Why Luxway?",
       subtitle:
-        "International expertise, premium service, and a reliable document process.",
+        "Luxway Travel Agency is steadily growing in the international travel market. The founder of the company is Saboxatxon Yusupova. Under the leadership of the founder, Luxway provides a wide range of international travel services, including tours to Asian and European destinations, visa support, flight and hotel bookings, and full assistance throughout the entire travel process.",
       items: {
         flights: {
           title: "Flights & tickets",
-          text:
-            "Smart options with comfortable schedules and minimal layovers — aligned to your budget.",
+          text: "Smart options with comfortable schedules and minimal layovers — aligned to your budget.",
         },
         hotels: {
           title: "Verified hotels",
-          text:
-            "Curated choices by location and service quality — for peace of mind.",
+          text: "Curated choices by location and service quality — for peace of mind.",
         },
         visa: {
           title: "Visa support",
-          text:
-            "Applications, bookings, insurance, and a clear plan that keeps things simple.",
+          text: "Applications, bookings, insurance, and a clear plan that keeps things simple.",
         },
         insurance: {
           title: "Insurance",
-          text:
-            "Coverage matched to your trip format — confidence wherever you go.",
+          text: "Coverage matched to your trip format — confidence wherever you go.",
         },
         support: {
           title: "24/7 support",
-          text:
-            "We stay reachable during your trip with fast responses and help.",
+          text: "We stay reachable during your trip with fast responses and help.",
         },
         pricing: {
           title: "Transparent pricing",
-          text:
-            "You see exactly what’s included. No hidden surprises.",
+          text: "You see exactly what’s included. No hidden surprises.",
         },
         payment: {
           title: "Flexible payment",
-          text:
-            "Depending on the package, we can structure payments in stages.",
+          text: "Depending on the package, we can structure payments in stages.",
         },
         private: {
           title: "Group & private trips",
-          text:
-            "Family, honeymoon, business, or VIP — tailored itineraries for your goal.",
+          text: "Family, honeymoon, business, or VIP — tailored itineraries for your goal.",
         },
       },
     },
@@ -1478,66 +1443,54 @@ const TRANSLATIONS = {
       items: {
         r1: {
           name: "Dilshod A.",
-          text:
-            "Dubai was perfectly organized: flights, transfers, and hotel all matched our expectations. Visa guidance was clear and on time.",
+          text: "Dubai was perfectly organized: flights, transfers, and hotel all matched our expectations. Visa guidance was clear and on time.",
         },
         r2: {
           name: "Madina K.",
-          text:
-            "We took Thailand (Phuket + Bangkok). The itinerary was smooth and saved us time. Document advice was genuinely helpful.",
+          text: "We took Thailand (Phuket + Bangkok). The itinerary was smooth and saved us time. Document advice was genuinely helpful.",
         },
         r3: {
           name: "Rustam S.",
-          text:
-            "They structured our Schengen package: bookings, insurance, forms. The whole process felt calm and professional.",
+          text: "They structured our Schengen package: bookings, insurance, forms. The whole process felt calm and professional.",
         },
         r4: {
           name: "Sabina N.",
-          text:
-            "We got a consultation for Japan. Requirements, plan, and budget were explained clearly — truly premium service.",
+          text: "We got a consultation for Japan. Requirements, plan, and budget were explained clearly — truly premium service.",
         },
       },
     },
 
     faq: {
       title: "FAQ",
-      subtitle:
-        "Quick answers about visas, payments, and travel planning.",
+      subtitle: "Quick answers about visas, payments, and travel planning.",
       items: {
         q1: {
           q: "How long does the visa process take?",
-          a:
-            "Timing depends on the country and season. During consultation we share a realistic estimate and possible acceleration options.",
+          a: "Timing depends on the country and season. During consultation we share a realistic estimate and possible acceleration options.",
         },
         q2: {
           q: "Which documents are usually required?",
-          a:
-            "Typically a passport, photo, application form, financial proof, and travel plan. Some visas also require bookings and insurance.",
+          a: "Typically a passport, photo, application form, financial proof, and travel plan. Some visas also require bookings and insurance.",
         },
         q3: {
           q: "How do payments work?",
-          a:
-            "Depending on the package, you can pay in full or in stages. We confirm all terms in advance.",
+          a: "Depending on the package, you can pay in full or in stages. We confirm all terms in advance.",
         },
         q4: {
           q: "What is your refund / cancellation policy?",
-          a:
-            "Refund rules depend on airline and hotel policies. We explain risks up front and help you pick the safest option.",
+          a: "Refund rules depend on airline and hotel policies. We explain risks up front and help you pick the safest option.",
         },
         q5: {
           q: "When is the best season to travel?",
-          a:
-            "Seasonality varies by destination. We recommend ideal windows based on your weather preferences and budget.",
+          a: "Seasonality varies by destination. We recommend ideal windows based on your weather preferences and budget.",
         },
         q6: {
           q: "Can I customize a package?",
-          a:
-            "Yes. We can adjust hotel tier, flights, and itinerary. Tell us your goal and constraints.",
+          a: "Yes. We can adjust hotel tier, flights, and itinerary. Tell us your goal and constraints.",
         },
         q7: {
           q: "What if the visa is refused?",
-          a:
-            "Each case is unique. We prepare documents as correctly as possible. If refused, we analyze the reason and suggest next steps.",
+          a: "Each case is unique. We prepare documents as correctly as possible. If refused, we analyze the reason and suggest next steps.",
         },
       },
     },
@@ -1556,8 +1509,7 @@ const TRANSLATIONS = {
       messageLabel: "Message",
       messagePlaceholder:
         "Dates, number of travelers, budget, and whether you need a visa",
-      consent:
-        "By sending, you agree we may use your details to contact you.",
+      consent: "By sending, you agree we may use your details to contact you.",
       quickTitle: "Quick chat",
       telegram: "Telegram",
       whatsapp: "WhatsApp",
@@ -1579,8 +1531,9 @@ const TRANSLATIONS = {
     },
 
     footer: {
+      address: "Address",
       about:
-        "Luxway is an international agency: Asia-first packages, Europe trips, and visa services delivered with a premium approach.",
+        "Bunyodkor Avenue 15, 100043, Tashkent",
       links: "Quick links",
       socials: "Social",
       rights: "All rights reserved.",
@@ -1758,7 +1711,8 @@ const TRANSLATIONS = {
       p13: {
         title: "Paris signature",
         subtitle: "Culture, fashion, and romance",
-        visaNote: "Schengen visa required. Consultation and preparation available.",
+        visaNote:
+          "Schengen visa required. Consultation and preparation available.",
         itinerary: [
           "Day 1: Eiffel area",
           "Day 2: Louvre + Seine walk",
@@ -1780,7 +1734,8 @@ const TRANSLATIONS = {
       p15: {
         title: "Paris + Amsterdam duo",
         subtitle: "Two capitals, one trip",
-        visaNote: "Schengen visa required. Appointment and documents guidance included.",
+        visaNote:
+          "Schengen visa required. Appointment and documents guidance included.",
         itinerary: [
           "Day 1: Paris city walk",
           "Day 2: Paris museums",
@@ -1795,4 +1750,3 @@ const TRANSLATIONS = {
 
 // Expose globally for app.js without build tools.
 window.TRANSLATIONS = TRANSLATIONS;
-

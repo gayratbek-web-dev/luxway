@@ -82,6 +82,7 @@ a{color:inherit}
   background:rgba(255,255,255,.06);
   border:1px solid rgba(255,255,255,.12);
   box-shadow:0 10px 24px rgba(0,0,0,.25);
+  height: 70px;
 }
 .brand-text{display:flex; flex-direction:column; line-height:1.05}
 .brand-name{font-weight:750; letter-spacing:.2px}

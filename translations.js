@@ -45,7 +45,7 @@ const TRANSLATIONS = {
       whyUs: "Nega biz",
       reviews: "Sharhlar",
       faq: "FAQ",
-      contact: "Aloqa",
+      about: "Biz haqimizda",
       getQuote: "Hisob-kitob olish",
       langLabel: "Til",
     },
@@ -365,6 +365,23 @@ const TRANSLATIONS = {
       },
     },
 
+    about: {
+      title: "Biz haqimizda",
+      subtitle: "LUXWAY Travel Agency bilan tanishing",
+      companyInfoTitle: "Kompaniya ma'lumotlari",
+      addressTitle: "Manzil",
+      addressText: "Bunyodkor prospekti 15, 100043, Toshkent",
+      emailTitle: "Email",
+      workingHoursTitle: "Ish vaqti",
+      workingHoursText: "09:00 - 18:00",
+      leadershipTitle: "Rahbariyat va aloqa",
+      directorTitle: "Direktor",
+      directorName: "Saboxatxon Yusupova",
+      phoneTitle: "Telefon",
+      officeTitle: "Ofis manzili",
+      officeText: "Individual sayohat maslahati uchun Toshkentdagi asosiy ofisimizga tashrif buyuring",
+    },
+
     footer: {
       address: "Manzil",
       about:
@@ -634,7 +651,7 @@ const TRANSLATIONS = {
       whyUs: "Почему мы",
       reviews: "Отзывы",
       faq: "FAQ",
-      contact: "Контакты",
+      about: "О нас",
       getQuote: "Рассчитать поездку",
       langLabel: "Язык",
     },
@@ -947,6 +964,23 @@ const TRANSLATIONS = {
       },
     },
 
+    about: {
+      title: "О нас",
+      subtitle: "Познакомьтесь с LUXWAY Travel Agency",
+      companyInfoTitle: "Информация о компании",
+      addressTitle: "Адрес",
+      addressText: "проспект Бунёдкор, 15, 100043, Ташкент",
+      emailTitle: "Email",
+      workingHoursTitle: "Время работы",
+      workingHoursText: "09:00 - 18:00",
+      leadershipTitle: "Руководство и контакты",
+      directorTitle: "Директор",
+      directorName: "Сабохатхон Юсупова",
+      phoneTitle: "Телефон",
+      officeTitle: "Расположение офиса",
+      officeText: "Посетите наш главный офис в Ташкенте для персональной консультации по путешествиям",
+    },
+
     footer: {
       address: "Адрес",
       about:
@@ -1212,7 +1246,7 @@ const TRANSLATIONS = {
       whyUs: "Why us",
       reviews: "Reviews",
       faq: "FAQ",
-      contact: "Contact",
+      about: "About Us",
       getQuote: "Get a Quote",
       langLabel: "Language",
     },
@@ -1528,6 +1562,23 @@ const TRANSLATIONS = {
           "This phone/email doesn’t look valid. Please check and try again.",
         requiredMessage: "Please write a message.",
       },
+    },
+
+    about: {
+      title: "About Us",
+      subtitle: "Get to know LUXWAY Travel Agency",
+      companyInfoTitle: "Company Information",
+      addressTitle: "Address",
+      addressText: "Bunyodkor Avenue 15, 100043, Tashkent",
+      emailTitle: "Email",
+      workingHoursTitle: "Working hours",
+      workingHoursText: "09:00 - 18:00",
+      leadershipTitle: "Leadership & Contact",
+      directorTitle: "Director",
+      directorName: "Saboxatxon Yusupova",
+      phoneTitle: "Phone",
+      officeTitle: "Office Location",
+      officeText: "Visit our main office in Tashkent for personalized travel consultation",
     },
 
     footer: {

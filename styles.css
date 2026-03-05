@@ -1038,6 +1038,17 @@ a {
   line-height: 1.6;
 }
 
+/* About */
+.section-about .two-col {
+  gap: 20px;
+}
+.section-about .card {
+  padding: 16px;
+}
+.section-about .card-title {
+  margin: 0 0 14px 0;
+}
+
 /* Contact */
 .section-contact .two-col {
   gap: 16px;
